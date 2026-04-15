@@ -1,0 +1,9 @@
+torch>=2.0.0
+torchvision
+numpy>=1.24
+Pillow>=10.0
+nibabel>=5.0
+scipy>=1.10
+accelerate>=0.30
+flash-attn>=2.5
+transformers>=4.45
