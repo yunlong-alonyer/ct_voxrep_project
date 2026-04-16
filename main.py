@@ -120,7 +120,7 @@ def run_pipeline(ct_file_path: str) -> str:
             border_size=cfg.border_size,
             border_value=cfg.border_value,
             draw_index=cfg.draw_slice_index,
-            z_indices=metadata.sampled_z_indices,
+            z_indices=metadata.sampled_z_indices_original,
         )
         tiled_images[win_name] = tiled
         if cfg.save_debug_images:
